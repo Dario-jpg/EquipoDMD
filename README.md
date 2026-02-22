@@ -8,7 +8,7 @@ El objetivo ha sido aprender a trabajar en equipo utilizando ramas, Pull Request
 
 ## Miembros del equipo
 - **Darío** – Persona A – Líder del repositorio
-- - **David** – Persona B – Desarrollador frontend
+- **David** – Persona B – Desarrollador frontend
 - **María** – Persona C – Desarrolladora de contenido
 
 ---
