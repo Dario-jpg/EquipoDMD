@@ -13,7 +13,7 @@ El objetivo ha sido aprender a trabajar en equipo utilizando ramas, Pull Request
 
 ---
 
-## 🛠 Tecnologías utilizadas
+## Tecnologías utilizadas
 - HTML
 - CSS
 - Git
