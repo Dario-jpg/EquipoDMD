@@ -1,0 +1,13 @@
+name: Info Commit
+
+on:
+  push:
+
+jobs:
+  info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar datos
+        run: |
+          echo "Usuario: ${{ github.actor }}"
+          echo "Mensaje: ${{ github.event.head_commit.message }}"
