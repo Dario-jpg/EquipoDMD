@@ -14,14 +14,5 @@ jobs:
         run: |
           echo "Commit hecho por ${{ github.actor }}" >> log.txt
           echo "Mensaje: ${{ github.event.head_commit.message }}" >> log.txt
-
-      - name: Subir cambios con token
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "Actualizar log"
-          branch: main
-          file_pattern: log.txt
-          author_name: github-actions
-          author_email: actions@github.com
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      # Eliminamos cualquier intento de push
