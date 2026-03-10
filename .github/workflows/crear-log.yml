@@ -20,5 +20,7 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add log.txt
-          git commit -m "Actualizar log"
-          git push
+          git commit -m "Actualizar log" || echo "No hay cambios"
+          git push origin HEAD:main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
